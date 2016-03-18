@@ -1,6 +1,6 @@
 CONFIG = {
     # 'mode': 'wsgi',
-    'working_dir': '/home/box/web',
+    'working_dir': '/home/box/stepic-task2',
     # 'python': '/usr/bin/python',
     'args': (
         '--bind=0.0.0.0:8080',
