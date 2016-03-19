@@ -10,3 +10,5 @@ guinicorn -w 1 -b 0.0.0.0:8080 hello.py:app &
 wget -O 1.out http://localhost:8080/?a=b&b=c
 wget -O 2.out http://localhost/hello/?a=b&b=c
 
+mkdir ~/web
+ln -s ~/stepic-task2/hello.py ~/web/hello.py
